@@ -1,4 +1,4 @@
-:HL["/_next/static/css/065f96b72eb10c4e.css","style"]
+:HL["/_next/static/css/859027049b665fab.css","style"]
 :HL["/_next/static/css/6e9270954d7fe6a7.css","style"]
 :HL["/product-flat-pack.webp","image"]
 :HL["/product-quick-assembly.webp","image"]
@@ -13,4 +13,4 @@
 :HL["/real-gallery/车间03.png","image"]
 :HL["/real-gallery/工地案例01.png","image"]
 :HL["/product-combination-3.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"kPs-4e1RcUDpJrTjn6q_N"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"4Rt2x18t8TRd24MnwKb1h"}
