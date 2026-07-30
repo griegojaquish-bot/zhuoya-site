@@ -1,4 +1,4 @@
-:HL["/_next/static/css/859027049b665fab.css","style"]
+:HL["/_next/static/css/951b6d1fbabad10f.css","style"]
 :HL["/_next/static/css/adc71525eaae918f.css","style"]
 :HL["/real-gallery/车间01.png","image"]
 :HL["/real-gallery/车间02.png","image"]
@@ -9,4 +9,4 @@
 :HL["/real-gallery/工地案例02.png","image"]
 :HL["/real-gallery/办公室01.png","image"]
 :HL["/real-gallery/办公室02.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"factory","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"4Rt2x18t8TRd24MnwKb1h"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"factory","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"aJiawT8mUaEVyPIUbWhZ0"}
