@@ -1,4 +1,4 @@
-:HL["/_next/static/css/951b6d1fbabad10f.css","style"]
+:HL["/_next/static/css/40a3e262bfa64c7d.css","style"]
 :HL["/_next/static/css/6e9270954d7fe6a7.css","style"]
 :HL["/product-flat-pack.webp","image"]
 :HL["/product-quick-assembly.webp","image"]
@@ -17,4 +17,4 @@
 :HL["/real-gallery/办公室02.png","image"]
 :HL["/real-gallery/工地案例01.png","image"]
 :HL["/real-gallery/工地案例02.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"aJiawT8mUaEVyPIUbWhZ0"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"awRxtrkU9jApkqC5YPg9v"}
