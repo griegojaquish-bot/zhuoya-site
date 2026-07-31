@@ -1,4 +1,4 @@
-:HL["/_next/static/css/8c3a9b111aa05fb8.css","style"]
+:HL["/_next/static/css/4cf3bd9a0e57c1af.css","style"]
 :HL["/_next/static/css/b29d15af9c431e57.css","style"]
 :HL["/product-site-fence.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"site-fence","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"gDNqJOaXkCXOHXC2F-Bk4"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"site-fence","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"C67yK0MLR5Qxz-vl4A6tX"}
