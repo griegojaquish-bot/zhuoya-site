@@ -9,4 +9,4 @@
 :HL["/real-gallery/工地案例02.png","image"]
 :HL["/real-gallery/办公室01.png","image"]
 :HL["/real-gallery/办公室02.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"factory","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"TfWldRYBeOFi1LUQzsnsE"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"factory","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"osrfKXliuxwLgtnfgcyA7"}
