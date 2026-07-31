@@ -7,10 +7,9 @@
 :HL["/product-premium-house.webp","image"]
 :HL["/product-combination-1.webp","image"]
 :HL["/product-combination-2.webp","image"]
-:HL["/project-mountain-valley-camp.jpg","image"]
 :HL["/real-gallery/车间01.png","image"]
 :HL["/real-gallery/车间02.png","image"]
 :HL["/real-gallery/车间05.png","image"]
 :HL["/real-gallery/工地案例01.png","image"]
 :HL["/product-combination-3.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"6fZaYs25vnoMrfhuYIuXQ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"en","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"EZUQfVyu4XHgOO7U-Ujn3"}
