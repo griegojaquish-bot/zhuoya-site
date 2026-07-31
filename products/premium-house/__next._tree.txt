@@ -1,4 +1,4 @@
 :HL["/_next/static/css/8c3a9b111aa05fb8.css","style"]
 :HL["/product-details/u-shaped-hip-roof-approved.png?v=20260731-43","image"]
 :HL["/product-details/u-shaped-hip-roof-frame.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"premium-house","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"l881RhDVbmidmIa3AnjTT"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"premium-house","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"gDNqJOaXkCXOHXC2F-Bk4"}
