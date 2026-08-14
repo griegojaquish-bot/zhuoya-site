@@ -13,7 +13,7 @@
 .projectCard:first-child {
   background-image:
     linear-gradient(180deg, rgba(11, 27, 31, 0.08), rgba(11, 27, 31, 0.72)),
-    url('/zhuoya-hero-aerial-4000.jpg') !important;
+    url('/real-gallery/project-campus-aerial.png') !important;
   background-position: center !important;
   background-size: cover !important;
 }
