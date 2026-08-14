@@ -5,6 +5,7 @@
 
 /* 手机端图片列表：每行仅显示一张。 */
 @media (width<=850px){.galleryGrid{grid-template-columns:1fr}.galleryGrid figure,.galleryGrid figure.galleryFeature{grid-area:auto;min-height:300px}.galleryGrid figure.galleryFeature{min-height:360px}}
+@media (width<=850px){.productGrid{grid-template-columns:1fr!important}}
 .p6 .productPhoto{content:url(/product-combination-1-clean.png)}
 
 /* 按最新标注：首屏使用用户指定的航拍图；项目案例 01 保留原图。 */
@@ -16,11 +17,16 @@
 .product.p3:before,.product.p5:before{z-index:3;color:#fff;background:rgba(18,34,28,.88);border-left:3px solid #e95e31;padding:9px 12px;font-size:11px;font-weight:700;line-height:1.7;position:absolute;top:18px;left:18px;box-shadow:0 4px 16px rgba(0,0,0,.22);pointer-events:none}
 .product.p3:before{content:"K式板房"}
 .product.p5:before{content:"四坡豪华房"}
+.product.p3 .productInfo:before,.product.p5 .productInfo:before{content:"";z-index:3;background:#e95e31;width:3px;height:145px;pointer-events:none;position:absolute;top:-205px;left:30%;transform-origin:top center}
+.product.p3 .productInfo:after,.product.p5 .productInfo:after{content:"";z-index:3;background:#e95e31;width:3px;height:20px;pointer-events:none;position:absolute;top:-62px;transform-origin:top center}
+.product.p3 .productInfo:after{left:29.5%;transform:rotate(-18deg)}
+.product.p5 .productInfo:before{height:150px;left:28%;transform:rotate(-2deg)}
+.product.p5 .productInfo:after{left:27%;transform:rotate(-12deg)}
 
-/* 首页首屏动画：更慢、更平滑的电影感镜头运动。 */
-.heroImage{animation:28s cubic-bezier(.22,.65,.25,1) infinite alternate heroCinematicPolished!important;filter:saturate(.96) contrast(1.02)}
-.heroImage:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,rgba(233,94,49,.12),transparent 32%,rgba(255,255,255,.08) 58%,transparent 74%);mix-blend-mode:screen;animation:heroLightSweep 18s ease-in-out infinite alternate}
-.heroShade{animation:heroShadePolished 12s ease-in-out infinite alternate!important}
+/* 首页首屏动画：更紧凑、更平滑的电影感镜头运动。 */
+.heroImage{animation:14s cubic-bezier(.22,.65,.25,1) infinite alternate heroCinematicPolished!important;filter:saturate(.96) contrast(1.02)}
+.heroImage:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,rgba(233,94,49,.12),transparent 32%,rgba(255,255,255,.08) 58%,transparent 74%);mix-blend-mode:screen;animation:heroLightSweep 9s ease-in-out infinite alternate}
+.heroShade{animation:heroShadePolished 6s ease-in-out infinite alternate!important}
 @keyframes heroCinematicPolished{0%{transform:scale(1.08) translate3d(-1.2%,-.3%,0);filter:saturate(.9) brightness(.93)}50%{transform:scale(1.14) translate3d(0,.2%,0);filter:saturate(1.05) brightness(1)}100%{transform:scale(1.08) translate3d(1.1%,-.6%,0);filter:saturate(.97) brightness(.96)}}
 @keyframes heroLightSweep{0%{opacity:.15;transform:translateX(-8%)}50%{opacity:.42;transform:translateX(0)}100%{opacity:.18;transform:translateX(8%)}}
 @keyframes heroShadePolished{0%{opacity:.9}100%{opacity:1}}
