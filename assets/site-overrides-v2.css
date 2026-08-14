@@ -2,7 +2,7 @@
 
 /* Use the user's untouched aerial photo for the hero and first case. */
 .heroImage {
-  background-image: url('/zhuoya-hero-aerial-original.png') !important;
+  background-image: url('/zhuoya-hero-aerial-4000.jpg') !important;
   background-position: center 52% !important;
   background-size: cover !important;
   animation: heroGentleZoom 14s ease-in-out infinite alternate !important;
@@ -13,7 +13,7 @@
 .projectCard:first-child {
   background-image:
     linear-gradient(180deg, rgba(11, 27, 31, 0.08), rgba(11, 27, 31, 0.72)),
-    url('/zhuoya-hero-aerial-original.png') !important;
+    url('/zhuoya-hero-aerial-4000.jpg') !important;
   background-position: center !important;
   background-size: cover !important;
 }
