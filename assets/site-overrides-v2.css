@@ -76,7 +76,7 @@
   }
 }
 
-/* Keep only homepage project cases 01 and 03. */
+/* Remove the superseded park-office card from the homepage and project listing. */
 .projectCards > a[href="/projects/industrial-park-office"],
 .projectListing > a[href="/projects/industrial-park-office"] {
   display: none !important;
@@ -94,7 +94,7 @@
 .projectCards .projectCard,
 .projectCards .projectCard.large {
   grid-row: auto !important;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 20 / 9;
   min-height: 0 !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
@@ -149,6 +149,6 @@
   .projectCards .projectCard,
   .projectCards .projectCard.large {
     width: 100% !important;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 10;
   }
 }

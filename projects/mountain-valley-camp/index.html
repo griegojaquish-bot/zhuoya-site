@@ -7,9 +7,18 @@
   <meta name="description" content="山谷文旅营地单层配套空间案例，以轻量化建造方式融入自然环境。">
   <link rel="icon" href="/favicon.svg">
   <link rel="stylesheet" href="/assets/index-o81Pu-vM.css">
-  <link rel="stylesheet" href="/assets/site-overrides-v2.css?v=mountain-camp">
+  <link rel="stylesheet" href="/assets/site-overrides-v2.css?v=mountain-camp-v3">
   <style>
-    .mountainHeroImage,.mountainResultImage{background:url('/project-mountain-valley-camp.jpg') center/contain no-repeat;background-color:#263b32}
+    .projectDetailHero>.mountainHeroImage,.projectResult>.mountainResultImage{background-image:url('/project-mountain-valley-camp.jpg')!important;background-position:center!important;background-size:contain!important;background-repeat:no-repeat!important;background-color:#263b32}
+    .projectDetailHero{grid-template-columns:minmax(0,1fr);min-height:0}
+    .projectDetailHero>*{min-width:0}
+    .projectDetailHero>div:first-child{min-height:390px;padding:90px 11% 70px}
+    .projectDetailHero>.mountainHeroImage{width:100%;aspect-ratio:20/9;min-height:0!important}
+    .projectResult{grid-template-columns:minmax(0,1fr);min-height:0}
+    .projectResult>*{min-width:0}
+    .projectResult>.mountainResultImage{width:100%;aspect-ratio:20/9;min-height:0}
+    .projectResult>div:last-child{padding:75px 11%}
+    @media(max-width:850px){.projectDetailHero>div:first-child{min-height:300px;padding:70px 8vw 55px}.projectDetailHero>.mountainHeroImage,.projectResult>.mountainResultImage{aspect-ratio:20/9}.projectResult>div:last-child{padding:60px 8vw}}
   </style>
 </head>
 <body class="antialiased">
