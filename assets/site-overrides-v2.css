@@ -6,3 +6,12 @@
 /* 手机端图片列表：每行仅显示一张。 */
 @media (width<=850px){.galleryGrid{grid-template-columns:1fr}.galleryGrid figure,.galleryGrid figure.galleryFeature{grid-area:auto;min-height:300px}.galleryGrid figure.galleryFeature{min-height:360px}}
 .p6 .productPhoto{content:url(/product-combination-1-clean.png)}
+
+/* 首页首屏动画：更慢、更平滑的电影感镜头运动。 */
+.heroImage{animation:28s cubic-bezier(.22,.65,.25,1) infinite alternate heroCinematicPolished!important;filter:saturate(.96) contrast(1.02)}
+.heroImage:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,rgba(233,94,49,.12),transparent 32%,rgba(255,255,255,.08) 58%,transparent 74%);mix-blend-mode:screen;animation:heroLightSweep 18s ease-in-out infinite alternate}
+.heroShade{animation:heroShadePolished 12s ease-in-out infinite alternate!important}
+@keyframes heroCinematicPolished{0%{transform:scale(1.08) translate3d(-1.2%,-.3%,0);filter:saturate(.9) brightness(.93)}50%{transform:scale(1.14) translate3d(0,.2%,0);filter:saturate(1.05) brightness(1)}100%{transform:scale(1.08) translate3d(1.1%,-.6%,0);filter:saturate(.97) brightness(.96)}}
+@keyframes heroLightSweep{0%{opacity:.15;transform:translateX(-8%)}50%{opacity:.42;transform:translateX(0)}100%{opacity:.18;transform:translateX(8%)}}
+@keyframes heroShadePolished{0%{opacity:.9}100%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.heroImage,.heroImage:after,.heroShade{animation:none!important;transform:none!important}}
