@@ -1,34 +1,77 @@
-/* 首页案例卡片：使用用户指定的航拍项目图，并标明同图内的两种房型。 */
-.projectCard:first-child{background-image:linear-gradient(180deg,rgba(8,18,14,.08),rgba(8,18,14,.72)),url(/real-gallery/project-campus-aerial.png);background-position:center;background-size:cover}
-.projectCard:first-child:before{background:none;inset:0;transform:none}
-.projectCard:first-child:after{content:"四坡屋顶豪华房\A K 式板房";white-space:pre;z-index:2;color:#fff;background:rgba(18,34,28,.86);border-left:3px solid #e95e31;padding:9px 12px;font-size:11px;font-weight:700;line-height:1.7;position:absolute;top:18px;left:18px;box-shadow:0 4px 16px rgba(0,0,0,.22)}
+/* Homepage corrections layered over the exported site styles. */
 
-/* 手机端图片列表：每行仅显示一张。 */
-@media (width<=850px){.galleryGrid{grid-template-columns:1fr}.galleryGrid figure,.galleryGrid figure.galleryFeature{grid-area:auto;min-height:300px}.galleryGrid figure.galleryFeature{min-height:360px}}
-@media (width<=850px){.productGrid{grid-template-columns:1fr!important}}
-.p5 .productPhoto{content:url(/product-premium-house-front.png)}
-.p6 .productPhoto{content:url(/product-combination-1-clean.png)}
+/* Use the user's untouched aerial photo for the hero and first case. */
+.heroImage {
+  background-image: url('/zhuoya-hero-aerial-original.png') !important;
+  background-position: center 52% !important;
+  background-size: cover !important;
+  animation: heroGentleZoom 14s ease-in-out infinite alternate !important;
+  transform-origin: center center;
+  will-change: transform;
+}
 
-/* 按最新标注：首屏使用用户指定的航拍图；项目案例 01 保留原图。 */
-.heroImage{background-image:url(/zhuoya-hero-aerial-hd.png)!important;background-position:center;background-size:cover}
-@media (width<=850px){.heroImage{background-image:url(/zhuoya-hero-aerial-hd.png)!important}}
-.projectCard:first-child:after{content:none;display:none}
+.projectCard:first-child {
+  background-image:
+    linear-gradient(180deg, rgba(11, 27, 31, 0.08), rgba(11, 27, 31, 0.72)),
+    url('/zhuoya-hero-aerial-original.png') !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
 
-/* 产品卡片房型指引。 */
-.product.p3:before,.product.p5:before{z-index:3;color:#fff;background:rgba(18,34,28,.88);border-left:3px solid #e95e31;padding:9px 12px;font-size:11px;font-weight:700;line-height:1.7;position:absolute;top:18px;left:18px;box-shadow:0 4px 16px rgba(0,0,0,.22);pointer-events:none}
-.product.p3:before{content:"K式板房"}
-.product.p5:before{content:"四坡豪华房"}
-.product.p3 .productInfo:before,.product.p5 .productInfo:before{content:"";z-index:3;background:#e95e31;width:3px;height:145px;pointer-events:none;position:absolute;top:-205px;left:30%;transform-origin:top center}
-.product.p3 .productInfo:after,.product.p5 .productInfo:after{content:"";z-index:3;background:#e95e31;width:3px;height:20px;pointer-events:none;position:absolute;top:-62px;transform-origin:top center}
-.product.p3 .productInfo:after{left:29.5%;transform:rotate(-18deg)}
-.product.p5 .productInfo:before{height:150px;left:28%;transform:rotate(-2deg)}
-.product.p5 .productInfo:after{left:27%;transform:rotate(-12deg)}
+.projectCard:first-child::before,
+.projectCard:first-child::after {
+  content: none !important;
+  display: none !important;
+}
 
-/* 首页首屏动画：更紧凑、更平滑的电影感镜头运动。 */
-.heroImage{animation:14s cubic-bezier(.22,.65,.25,1) infinite alternate heroCinematicPolished!important;filter:saturate(.96) contrast(1.02)}
-.heroImage:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,rgba(233,94,49,.12),transparent 32%,rgba(255,255,255,.08) 58%,transparent 74%);mix-blend-mode:screen;animation:heroLightSweep 9s ease-in-out infinite alternate}
-.heroShade{animation:heroShadePolished 6s ease-in-out infinite alternate!important}
-@keyframes heroCinematicPolished{0%{transform:scale(1.08) translate3d(-1.2%,-.3%,0);filter:saturate(.9) brightness(.93)}50%{transform:scale(1.14) translate3d(0,.2%,0);filter:saturate(1.05) brightness(1)}100%{transform:scale(1.08) translate3d(1.1%,-.6%,0);filter:saturate(.97) brightness(.96)}}
-@keyframes heroLightSweep{0%{opacity:.15;transform:translateX(-8%)}50%{opacity:.42;transform:translateX(0)}100%{opacity:.18;transform:translateX(8%)}}
-@keyframes heroShadePolished{0%{opacity:.9}100%{opacity:1}}
-@media (prefers-reduced-motion:reduce){.heroImage,.heroImage:after,.heroShade{animation:none!important;transform:none!important}}
+/* Match the luxury-house card to the main image used on its detail page. */
+.product.p5 .productPhoto {
+  content: url('/product-premium-house-card.png');
+}
+
+/* Keep the logo-free image previously requested for combination house 1. */
+.product.p6 .productPhoto {
+  content: url('/product-combination-1-clean.png');
+}
+
+/* Remove the temporary room labels and guide lines. */
+.product.p3::before,
+.product.p5::before,
+.product.p3 .productInfo::before,
+.product.p5 .productInfo::before,
+.product.p3 .productInfo::after,
+.product.p5 .productInfo::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* One image per row on phones. */
+@media (max-width: 850px) {
+  .galleryGrid,
+  .productGrid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .galleryItem,
+  .product {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+  }
+
+  .heroImage {
+    background-position: center center !important;
+    animation-duration: 16s !important;
+  }
+}
+
+@keyframes heroGentleZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.035); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroImage {
+    animation: none !important;
+    transform: none !important;
+  }
+}
