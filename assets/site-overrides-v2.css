@@ -75,3 +75,38 @@
     transform: none !important;
   }
 }
+
+/* Keep only homepage project cases 01 and 03. */
+.projectCards > a[href="/projects/industrial-park-office"],
+.projectListing > a[href="/projects/industrial-park-office"] {
+  display: none !important;
+}
+
+.projectCards {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  grid-template-rows: auto !important;
+  align-items: start;
+}
+
+.projectCards .projectCard,
+.projectCards .projectCard.large {
+  grid-row: auto !important;
+  aspect-ratio: 4 / 3;
+  min-height: 0 !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-color: #10221d !important;
+}
+
+@media (max-width: 850px) {
+  .projectCards {
+    grid-template-columns: 1fr !important;
+  }
+
+  .projectCards .projectCard,
+  .projectCards .projectCard.large {
+    width: 100% !important;
+    aspect-ratio: 4 / 3;
+  }
+}
