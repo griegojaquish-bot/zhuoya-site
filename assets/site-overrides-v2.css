@@ -1,0 +1,8 @@
+/* 首页案例卡片：使用用户指定的航拍项目图，并标明同图内的两种房型。 */
+.projectCard:first-child{background-image:linear-gradient(180deg,rgba(8,18,14,.08),rgba(8,18,14,.72)),url(/real-gallery/project-campus-aerial.png);background-position:center;background-size:cover}
+.projectCard:first-child:before{background:none;inset:0;transform:none}
+.projectCard:first-child:after{content:"四坡屋顶豪华房\A K 式板房";white-space:pre;z-index:2;color:#fff;background:rgba(18,34,28,.86);border-left:3px solid #e95e31;padding:9px 12px;font-size:11px;font-weight:700;line-height:1.7;position:absolute;top:18px;left:18px;box-shadow:0 4px 16px rgba(0,0,0,.22)}
+
+/* 手机端图片列表：每行仅显示一张。 */
+@media (width<=850px){.galleryGrid{grid-template-columns:1fr}.galleryGrid figure,.galleryGrid figure.galleryFeature{grid-area:auto;min-height:300px}.galleryGrid figure.galleryFeature{min-height:360px}}
+.p6 .productPhoto{content:url(/product-combination-1-clean.png)}
