@@ -84,7 +84,8 @@
 }
 
 /* The current .com Ming-Qing detail page uses one verified project image. */
-.detail-premium-house .systemMedia figure:nth-child(2) {
+.detail.detail-premium-house .systemMedia figure:nth-child(2),
+.enProduct.premium-house .enProductMedia .systemReference {
   display: none !important;
 }
 
@@ -156,5 +157,77 @@
     background-image:
       linear-gradient(90deg, rgba(32, 49, 42, .98) 0%, rgba(32, 49, 42, .88) 42%, rgba(32, 49, 42, .3) 100%),
       url('/zhuoya-factory-production-line-mobile.webp') !important;
+  }
+}
+
+/* Keep the project listing cards on their real photos instead of the base gradient placeholders. */
+.projectListing .projectShowcase:nth-child(1) {
+  background-image: url('/real-gallery/case-large-campus-aerial.webp') !important;
+}
+
+.projectListing .projectShowcase:nth-child(2) {
+  background-image: url('/zhuoya-hero-project-campus.webp') !important;
+}
+
+.projectListing .projectShowcase:nth-child(3) {
+  background-image: url('/product-premium-house-garden.webp') !important;
+}
+
+.projectListing .projectShowcase:nth-child(4) {
+  background-image: url('/real-gallery/case-large-campus-yard.webp') !important;
+}
+
+.projectListing .projectShowcase:nth-child(5) {
+  background-image: url('/real-gallery/project-brand-space.png') !important;
+}
+
+.projectListing .projectShowcase:nth-child(6) {
+  background-image: url('/product-flat-pack-project.webp') !important;
+}
+
+.projectListing .projectShowcase.mountainValleyCase {
+  background-image: url('/project-mountain-valley-camp.jpg') !important;
+}
+
+@media (max-width: 850px) {
+  .projectListing .projectShowcase:nth-child(1) {
+    background-image: url('/real-gallery/case-large-campus-aerial-mobile.webp') !important;
+  }
+
+  .projectListing .projectShowcase:nth-child(2) {
+    background-image: url('/zhuoya-hero-project-campus-mobile.webp') !important;
+  }
+
+  .projectListing .projectShowcase:nth-child(3) {
+    background-image: url('/product-premium-house-garden-mobile.webp') !important;
+  }
+
+  .projectListing .projectShowcase:nth-child(4) {
+    background-image: url('/real-gallery/case-large-campus-yard-mobile.webp') !important;
+  }
+
+  .projectListing .projectShowcase:nth-child(5) {
+    background-image: url('/real-gallery/project-brand-space-mobile.webp') !important;
+  }
+
+  .projectListing .projectShowcase:nth-child(6) {
+    background-image: url('/product-flat-pack-project-mobile.webp') !important;
+  }
+
+  .projectListing .projectShowcase.mountainValleyCase {
+    background-image: url('/project-mountain-valley-camp-mobile.webp') !important;
+  }
+}
+
+/* Give the emergency-support case a quick-assembly reference image at both breakpoints. */
+.projectDetail.emergency-support .projectDetailHero > div:last-child,
+.projectDetail.emergency-support .resultImage {
+  background-image: url('/product-quick-assembly.webp') !important;
+}
+
+@media (max-width: 850px) {
+  .projectDetail.emergency-support .projectDetailHero > div:last-child,
+  .projectDetail.emergency-support .resultImage {
+    background-image: url('/product-quick-assembly-mobile.webp') !important;
   }
 }
