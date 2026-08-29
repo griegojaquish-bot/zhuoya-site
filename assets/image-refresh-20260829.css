@@ -82,6 +82,11 @@
   background-size: cover !important;
 }
 
+/* The current .com Ming-Qing detail page uses one verified project image. */
+.detail-premium-house .systemMedia figure:nth-child(2) {
+  display: none !important;
+}
+
 @media (max-width: 850px) {
   .heroImage {
     background-image: url('/zhuoya-hero-project-campus-mobile.webp') !important;
