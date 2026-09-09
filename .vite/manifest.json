@@ -6,8 +6,8 @@
       "_rolldown-runtime-S-ySWqyJ.js"
     ]
   },
-  "_query-D2V9OaoK.js": {
-    "file": "assets/query-D2V9OaoK.js",
+  "_query-DZOG5WwV.js": {
+    "file": "assets/query-DZOG5WwV.js",
     "name": "query"
   },
   "_rolldown-runtime-S-ySWqyJ.js": {
@@ -15,17 +15,27 @@
     "name": "rolldown-runtime"
   },
   "app/gallery-lightbox.tsx": {
-    "file": "assets/gallery-lightbox-_wqvWprj.js",
+    "file": "assets/gallery-lightbox-CYaIbD0G.js",
     "name": "gallery-lightbox",
     "src": "app/gallery-lightbox.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
+      "app/responsive-image.tsx",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "app/responsive-image.tsx": {
+    "file": "assets/responsive-image-BMfnHUuM.js",
+    "name": "responsive-image",
+    "src": "app/responsive-image.tsx",
+    "isDynamicEntry": true,
+    "imports": [
       "_framework-CXnKph_e.js"
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-D3uhN9kG.js",
+    "file": "assets/layout-segment-context-ClZ5AU6f.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -36,7 +46,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/link.js": {
-    "file": "assets/link-Cnuu1uvi.js",
+    "file": "assets/link-BZF7-RoC.js",
     "name": "link",
     "src": "node_modules/vinext/dist/shims/link.js",
     "isDynamicEntry": true,
@@ -44,14 +54,14 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_framework-CXnKph_e.js",
-      "_query-D2V9OaoK.js"
+      "_query-DZOG5WwV.js"
     ],
     "dynamicImports": [
       "node_modules/vinext/dist/shims/router.js"
     ]
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-YqGoLA-B.js",
+    "file": "assets/router-DeSGBChj.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
@@ -59,14 +69,14 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_framework-CXnKph_e.js",
-      "_query-D2V9OaoK.js"
+      "_query-DZOG5WwV.js"
     ],
     "dynamicImports": [
       "_framework-CXnKph_e.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DxoY8L3N.js",
+    "file": "assets/index-6BXlO5da.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -78,6 +88,7 @@
       "node_modules/vinext/dist/shims/layout-segment-context.js",
       "app/gallery-lightbox.tsx",
       "virtual:vinext-app-browser-entry",
+      "app/responsive-image.tsx",
       "node_modules/vinext/dist/shims/link.js"
     ]
   }

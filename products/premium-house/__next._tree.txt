@@ -1,4 +1,0 @@
-:HL["/_next/static/css/8bcec49738f8a02f.css","style"]
-:HL["/real-gallery/case-garden-camp-landscape.webp?v=20260731-43","image"]
-:HL["/real-gallery/case-garden-camp-landscape.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"premium-house","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Jfz9Kk5YKIhoOxVHWTIyW"}
