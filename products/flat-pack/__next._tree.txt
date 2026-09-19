@@ -1,5 +1,5 @@
 :HL["/_next/static/css/107bb5a4a529aa26.css","style"]
-:HL["/_next/static/css/1bbc0db7d336eaea.css","style"]
+:HL["/_next/static/css/e7a5c0c6e1535b94.css","style"]
 :HL["/product-flat-pack-factory-20260828.webp","image",{"imageSrcSet":"/product-flat-pack-factory-mobile.webp 900w, /product-flat-pack-factory-20260828.webp 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
-:HL["/planning/flat-pack-structure-clean.png","image",{"imageSrcSet":"/planning/flat-pack-structure-clean-mobile.webp 900w, /planning/flat-pack-structure-clean.png 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"flat-pack","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"wF1vv_whr0H_VRk4y06Yp"}
+:HL["/product-details/flat-pack-structure-4x3.webp","image",{"imageSrcSet":"/product-details/flat-pack-structure-4x3-mobile.webp 900w, /product-details/flat-pack-structure-4x3.webp 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"flat-pack","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ZKZOxkAXDdmDs8PbZDUZw"}
