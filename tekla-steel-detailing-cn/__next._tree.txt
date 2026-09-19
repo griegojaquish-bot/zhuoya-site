@@ -2,4 +2,4 @@
 :HL["/_next/static/css/1bbc0db7d336eaea.css","style"]
 :HL["/_next/static/css/74503547a04bf46c.css","style"]
 :HL["/_next/static/css/07046f73580eb0ed.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"tekla-steel-detailing-cn","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"y9x0hJZD0P1pde2A8AJo3"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"tekla-steel-detailing-cn","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"0iaesgdwxx7nFHvRV3KgH"}

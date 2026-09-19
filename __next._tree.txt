@@ -3,4 +3,4 @@
 :HL["/_next/static/css/f9bcdc59cd2426ae.css","style"]
 :HL["/_next/static/css/fe52603460f85873.css","style"]
 :HL["/new-products/container-office.webp","image",{"fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"y9x0hJZD0P1pde2A8AJo3"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"0iaesgdwxx7nFHvRV3KgH"}

@@ -2,5 +2,5 @@
 2:I[8500,["500","static/chunks/500-c99b8dfd3de17c86.js","726","static/chunks/app/thanks/page-74d37bf011675864.js"],""]
 3:I[484,[],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"thanksPage","children":[["$","p",null,{"children":"THANK YOU"}],["$","h1",null,{"children":["需求已提交，",["$","br",null,{}],"我们会尽快联系您。"]}],["$","span",null,{"children":"卓雅团队将在 24 小时内提供初步建议；紧急项目请直接拨打 13539957289（微信同号）。"}],["$","$L2",null,{"href":"/","children":"返回网站首页"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"y9x0hJZD0P1pde2A8AJo3"}
+0:{"rsc":["$","$1","c",{"children":[["$","main",null,{"className":"thanksPage","children":[["$","p",null,{"children":"THANK YOU"}],["$","h1",null,{"children":["需求已提交，",["$","br",null,{}],"我们会尽快联系您。"]}],["$","span",null,{"children":"卓雅团队将在 24 小时内提供初步建议；紧急项目请直接拨打 13539957289（微信同号）。"}],["$","$L2",null,{"href":"/","children":"返回网站首页"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"0iaesgdwxx7nFHvRV3KgH"}
 5:null
