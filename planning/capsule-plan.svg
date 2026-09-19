@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="720pt" viewBox="0 0 1152 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-17T14:32:21.235623</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1152 720 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #faf9f6"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 79.606957 532.017391 
+L 964.267826 532.017391 
+L 964.267826 178.153043 
+L 79.606957 178.153043 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #f1f2eb"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 79.606957 532.017391 
+L 89.436522 532.017391 
+L 89.436522 178.153043 
+L 79.606957 178.153043 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 954.438261 532.017391 
+L 964.267826 532.017391 
+L 964.267826 178.153043 
+L 954.438261 178.153043 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 79.606957 532.017391 
+L 374.493913 532.017391 
+L 374.493913 522.187826 
+L 79.606957 522.187826 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 472.789565 532.017391 
+L 964.267826 532.017391 
+L 964.267826 522.187826 
+L 472.789565 522.187826 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 472.789565 522.187826 
+C 472.789565 496.128197 462.426376 471.109245 443.999435 452.682304 
+C 425.572494 434.255363 400.553543 423.892174 374.493913 423.892174 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #a37845; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 79.606957 187.982609 
+L 458.045217 187.982609 
+L 458.045217 178.153043 
+L 79.606957 178.153043 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 585.829565 187.982609 
+L 964.267826 187.982609 
+L 964.267826 178.153043 
+L 585.829565 178.153043 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 310.601739 522.187826 
+L 320.431304 522.187826 
+L 320.431304 433.721739 
+L 310.601739 433.721739 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 310.601739 335.426087 
+L 320.431304 335.426087 
+L 320.431304 187.982609 
+L 310.601739 187.982609 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #63777a; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 99.266087 305.937391 
+L 207.391304 305.937391 
+L 207.391304 197.812174 
+L 99.266087 197.812174 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #d8e9e9; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 236.88 266.61913 
+L 290.942609 266.61913 
+L 290.942609 197.812174 
+L 236.88 197.812174 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #e5ecea; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 99.266087 497.613913 
+L 187.732174 497.613913 
+L 187.732174 443.551304 
+L 99.266087 443.551304 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #e5ecea; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 492.448696 384.573913 
+L 669.38087 384.573913 
+L 669.38087 187.982609 
+L 492.448696 187.982609 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #e1d4bd; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 502.278261 242.045217 
+L 659.551304 242.045217 
+L 659.551304 197.812174 
+L 502.278261 197.812174 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #fffdf7; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 708.69913 246.96 
+L 826.653913 246.96 
+L 826.653913 187.982609 
+L 708.69913 187.982609 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #dcc8aa; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 748.017391 305.937391 
+L 792.250435 305.937391 
+L 792.250435 261.704348 
+L 748.017391 261.704348 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #e5ecea; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 865.972174 276.448696 
+L 929.864348 276.448696 
+L 929.864348 212.556522 
+L 865.972174 212.556522 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #e5ecea; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 865.972174 374.744348 
+L 929.864348 374.744348 
+L 929.864348 310.852174 
+L 865.972174 310.852174 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #e5ecea; stroke: #6d8285; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 477.704348 522.187826 
+L 841.398261 522.187826 
+L 841.398261 384.573913 
+L 477.704348 384.573913 
+z
+" clip-path="url(#pd95bca9a3f)" style="fill: #d8e9de; opacity: 0.6"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 374.493913 522.187826 
+L 374.493913 423.892174 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #a37845; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 458.045217 185.525217 
+L 585.829565 185.525217 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #79aeb8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 458.045217 180.610435 
+L 585.829565 180.610435 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #79aeb8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 322.888696 335.426087 
+L 322.888696 237.130435 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #a37845; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 320.431304 433.721739 
+L 320.431304 335.426087 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #a37845; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 79.606957 590.994783 
+L 964.267826 590.994783 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #728587; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 79.606957 600.824348 
+L 79.606957 581.165217 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #728587; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 964.267826 600.824348 
+L 964.267826 581.165217 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #728587; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 1008.50087 532.017391 
+L 1008.50087 178.153043 
+" clip-path="url(#pd95bca9a3f)" style="fill: none; stroke: #728587; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="217.22087" y="386.905866" transform="rotate(-0 217.22087 386.905866)">卫浴移门洞口 1000</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="153.328696" y="254.726443" transform="rotate(-0 153.328696 254.726443)">淋浴</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="263.911304" y="234.729324" transform="rotate(-0 263.911304 234.729324)">WC</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="143.49913" y="473.232775" transform="rotate(-0 143.49913 473.232775)">洗手台</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="580.914783" y="309.143827" transform="rotate(-0 580.914783 309.143827)">双人床</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="767.676522" y="220.072955" transform="rotate(-0 767.676522 220.072955)">书桌</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="890.546087" y="416.699415" transform="rotate(-0 890.546087 416.699415)">窗景休闲</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="664.466087" y="466.428042" transform="rotate(-0 664.466087 466.428042)">主通道 1400</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="521.937391" y="576.094534" transform="rotate(-0 521.937391 576.094534)">9000 mm</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #233c43" transform="translate(1050.835353 352.529065)">3600</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #233c43" transform="translate(1053.193166 363.227307)">mm</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="521.937391" y="66.057831" transform="rotate(-0 521.937391 66.057831)">单体住宿 · 一房一卫布局参考</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="521.937391" y="117.195342" transform="rotate(-0 521.937391 117.195342)">参考方案 / CONCEPT PLAN · 单位 mm · 非实建测绘图</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233c43" x="521.937391" y="662.451905" transform="rotate(-0 521.937391 662.451905)">尺寸为方案假设；墙厚、结构开口、消防疏散、基础及机电需按项目复核。</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd95bca9a3f">
+   <rect x="10.8" y="11.050435" width="1130.4" height="697.89913"/>
+  </clipPath>
+ </defs>
+</svg>
