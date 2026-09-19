@@ -1,5 +1,5 @@
-:HL["/_next/static/css/d1d50e2c5749d236.css","style"]
+:HL["/_next/static/css/107bb5a4a529aa26.css","style"]
 :HL["/_next/static/css/1bbc0db7d336eaea.css","style"]
 :HL["/product-details/k-type-approved.png?v=20260731-43","image",{"imageSrcSet":"/product-details/k-type-approved-mobile.webp?v=20260731-43 900w, /product-details/k-type-approved.png?v=20260731-43 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
 :HL["/product-details/k-type-interior-4x3.webp","image",{"imageSrcSet":"/product-details/k-type-interior-4x3-mobile.webp 900w, /product-details/k-type-interior-4x3.webp 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"site-office","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"TsOwmdb7PjTqVSxvpf8kD"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"site-office","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lymGxMXDIv-KU8bp41vKh"}
