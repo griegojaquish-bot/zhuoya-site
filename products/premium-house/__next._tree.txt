@@ -1,5 +1,5 @@
-:HL["/_next/static/css/d1d50e2c5749d236.css","style"]
+:HL["/_next/static/css/ab09cf6628bdd3e4.css","style"]
 :HL["/_next/static/css/1bbc0db7d336eaea.css","style"]
 :HL["/product-k-type-project.webp","image",{"imageSrcSet":"/product-k-type-project-mobile.webp 900w, /product-k-type-project.webp 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
 :HL["/product-details/u-shaped-hip-roof-frame-4x3.webp","image",{"imageSrcSet":"/product-details/u-shaped-hip-roof-frame-4x3-mobile.webp 900w, /product-details/u-shaped-hip-roof-frame-4x3.webp 1800w","imageSizes":"(max-width: 850px) 100vw, 50vw"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"premium-house","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"TsOwmdb7PjTqVSxvpf8kD"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"products","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"premium-house","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"y9x0hJZD0P1pde2A8AJo3"}
